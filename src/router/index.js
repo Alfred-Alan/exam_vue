@@ -4,6 +4,8 @@ import index from '@/components/index'
 
 import Register from '@/components/Register'
 import Login from '@/components/Login'
+import myfile from '@/components/myfile'
+
 Vue.use(Router)
 
 var routes = [
@@ -15,10 +17,14 @@ var routes = [
           path:'/register',
           name:'Register',
           component:Register
-        },,{
+        },{
           path:'/login',
           name:'Login',
           component:Login
+        },{
+          path:'/update',
+          name:'myfile',
+          component:myfile
         },
         
 ]

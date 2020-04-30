@@ -26,9 +26,12 @@ export default {
       }).then(res=>{
           this.$Message(res.data.msg)
       });
-    }
+    },
+
+
   },
-  created() {}
+  created() 
+  {}
 };
 </script>
 
