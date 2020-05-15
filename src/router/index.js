@@ -7,6 +7,7 @@ import Login from '@/components/Login'
 import myfile from '@/components/myfile'
 import upyun from '@/components/upyun'
 
+import show_goods from '@/components/show_goods'
 Vue.use(Router)
 
 var routes = [
@@ -30,6 +31,10 @@ var routes = [
           path:'/upyun',
           name:'upyun',
           component:upyun
+        },{
+          path:'/show_goods',
+          name:'show_goods',
+          component:show_goods
         },
 ]
 
